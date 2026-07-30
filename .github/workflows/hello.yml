@@ -6,3 +6,4 @@ jobs:                           # 実行するジョブ（作業のまとまり�
     runs-on: ubuntu-latest      # ジョブを実行する仮想マシンのOS（最新のUbuntuを指定）
     steps:                      # ジョブ内で実行する作業の手順
       - run: echo "Hello, GitHub Actions!"  # 実行するコマンド（メッセージをコンソールに出力）
+      - run: echo "Good evening!"
